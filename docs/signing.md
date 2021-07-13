@@ -49,7 +49,7 @@ Cosign will prompt you for a password, and create the Kubernetes secret for you.
 
 # KMS
 Chains uses a ["go-cloud"](https://github.com/google/go-cloud) URI like scheme for KMS references.
-Chains supports GCP KMS and Hashicorp Vault today, but we would love to add support for more.
+Chains supports GCP KMS, AWS KMS, and Hashicorp Vault today, but we would love to add support for more.
 
 You can configure Chains to use a specific KMS key using the `signers.kms.kmsref` config key in `chains-config`.
 
